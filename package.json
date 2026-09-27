@@ -1,0 +1,15 @@
+{
+  "name": "ai-integration",
+  "module": "index.js",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@google/genai": "^2.24.0"
+  }
+}
